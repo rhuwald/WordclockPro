@@ -242,13 +242,13 @@ async def main():
     # WLAN de-aktivieren (zum Strom sparen)
     WLAN.disconnect()
     
-    # Beim Start der Uhr erstmal Rudi zum Geburtstag gratulieren...
+    # Beim Start der Uhr erstmal dem Geburtstagskind zum Geburtstag gratulieren...
     if False:
         Bixel.ePaper.image4Gray.fill(Bixel.ePaper.white)
-        Bixel.Draw_Word(5, Bixel.Y_Max - 6, "LIEBER RUDI!!!", Bixel.ePaper.black, True, 270)
+        Bixel.Draw_Word(5, Bixel.Y_Max - 6, "LIEBER XXXX!!!", Bixel.ePaper.black, True, 270)
         Bixel.Draw_Word(5 + 7 + 7, Bixel.Y_Max - 3, "ALLES LIEBE ZUM", Bixel.ePaper.black, True, 270)
-        Bixel.Draw_Word(5 + 7 + 7 + 7, Bixel.Y_Max - 3, "58. GEBURTSTAG!!!", Bixel.ePaper.black, True, 270)
-        Bixel.Draw_Word(5 + 7 + 7 + 7 + 7 + 7, Bixel.Y_Max - 3, "VON A, S, T + R", Bixel.ePaper.black, True, 270)
+        Bixel.Draw_Word(5 + 7 + 7 + 7, Bixel.Y_Max - 3, "99. GEBURTSTAG!!!", Bixel.ePaper.black, True, 270)
+        Bixel.Draw_Word(5 + 7 + 7 + 7 + 7 + 7, Bixel.Y_Max - 3, "VON A, B, C + D", Bixel.ePaper.black, True, 270)
         for _ in range(Bixel.Y_Max, 0, -1):
             Bixel.Draw( + 7 + 7 + 7 + 7 + 7 + 7 + 4, _, Bixel.ePaper.black, False)
         Bixel.Draw_Word(5 + 7 + 7 + 7 + 7 + 7 + 7 + 7, Bixel.Y_Max, "NUR DER SCP 1906", Bixel.ePaper.black, False, 270)
@@ -523,3 +523,4 @@ async def time_or_scp_task():
 print('start')
 asyncio.run(main())
 print('ende')
+
