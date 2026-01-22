@@ -27,7 +27,7 @@ Die Uhr wird zweimal am Tag mit einer RTC synchronisiert: Um 02:00 Uhr und im 03
 * 3 Kurzhubtaster (etwa 6x6x9mm) optimalerweise mit Kappen in Vereinsfarben (schwarz, weiss, grün)
 * 4 Schrauben 2.5mm
 * 4 Abstandhalter 2.5mm, etwa 30mm lang
-* Platine (Muster siehe bei [Links]
+* Platine (Muster siehe bei **Links**)
 * 5V Stromquelle
 * Lötkolben
 
@@ -36,7 +36,7 @@ Die Uhr wird zweimal am Tag mit einer RTC synchronisiert: Um 02:00 Uhr und im 03
 2. Gehäuse mit 3D-Drucker ausdrucken
 3. Platine mittels der Abstandhalter und Schrauben an das e-paper Display anschrauben
 4. Platine einbauen
-1. API key von [Free Time Zone Database & API] beschaffen
+1. API key von **Free Time Zone Database & API** beschaffen
 3. Upload all files to your Raspberry Pi Pico (e.g., with [Thonny](https://thonny.org/)).
 4. Start wordclock.py (e.g., with Thonny)
 5. wordclock needs a wifi connection and an api key for syncing time. This config is saved in wordclock.conf. If not set, wordclock starts a wifi access point *WORDCLOCK*, where you are able to enter the values.
