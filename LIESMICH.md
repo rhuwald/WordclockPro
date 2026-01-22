@@ -17,6 +17,12 @@ Die Uhr wird zweimal am Tag mit einer RTC synchronisiert: Um 02:00 Uhr und im 03
 - [Installation](#installation)
 - [Links](#Links)
 
+Die 3 Taster haben folgende Funktion:
+
+- Taster 1 sagt die aktuelle Uhrzeit an
+- Taster 2 spielt einen der vorhandenen SCP-Fan-Gesänge
+- Taster 3 wird für den Reset der WLAN-Verbindung benötigt (5x innerhalb von 2 Sekunden drücken löscht die WLDN- und API Key Config)
+
 ## Hardware
 * Raspberry Pi Pico, Pico " oder Pimoroni Pico Plus 2W (mit mehr RAM/Flash für längere Sounds)
 * Waveshare e-paper display 3.7", 480 x 280 pixel
@@ -36,13 +42,14 @@ Die Uhr wird zweimal am Tag mit einer RTC synchronisiert: Um 02:00 Uhr und im 03
 2. Gehäuse mit 3D-Drucker ausdrucken
 3. Platine mittels der Abstandhalter und Schrauben an das e-paper Display anschrauben
 4. Platine einbauen
-1. API key von **Free Time Zone Database & API** beschaffen
-3. Upload all files to your Raspberry Pi Pico (e.g., with [Thonny](https://thonny.org/)).
-4. Start wordclock.py (e.g., with Thonny)
-5. wordclock needs a wifi connection and an api key for syncing time. This config is saved in wordclock.conf. If not set, wordclock starts a wifi access point *WORDCLOCK*, where you are able to enter the values.
-6. To start wordclock automaticaly - rename wordclock.py to main.py
+5. API key von **Free Time Zone Database & API** beschaffen
+6. Alle Dateien auf den Pico kopieren (z.B. mit [Thonny](https://thonny.org/)).
+7. Start wordclock.py (z.B. mit Thonny)
+8. Die Wordclock benötigt eine WLAN-Verbindung und einen API Key für die Zeit-Synchronisierung. Die Konfiguration wird in der Datei wordclock.conf abgespeichert. Kann keine WLAN-Verbindung bzw. keine Uhrzeit ermittelt werden, startet automatisch ein WLAN-Hotspot *WORDCLOCK*. Dort kann die Konfiguration (SSID, Kennwort, API Key) eingegeben werden.
+9. Damit die Wordclock automatisch startet, muss die Datei wordclock.py auf dem Pico umbenannt werden in main.py
 
 ## Links
 * [Raspberry Pi Pico-series](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
+* [Pimoroni Pico Plus 2 W](https://shop.pimoroni.com/products/pimoroni-pico-plus-2-w?variant=42182811942995)
 * [Waveshare 3.7" e-paper display](https://www.waveshare.com/pico-epaper-3.7.htm)
 * [Free Time Zone Database & API](https://www.timezonedb.com/)
