@@ -31,7 +31,7 @@ Die 4 Taster haben folgende Funktion:
 * MAX 98357A Mono Verstärker
 * Buchsenleiste 2 x 20 Pin, 1 x 8 Pin
 * Stiftleiste gewinkelt 1 x 8 Pin
-* 3 Kurzhubtaster (etwa 6x6x9mm) optimalerweise mit Kappen in Vereinsfarben (schwarz, weiss, grün)
+* 3 - 4 Kurzhubtaster (etwa 6x6x9mm) optimalerweise mit Kappen in Vereinsfarben (schwarz, weiss, grün)
 * 4 Schrauben 2.5mm
 * 4 Abstandhalter 2.5mm, etwa 30mm lang
 * Platine (Muster siehe bei Dateien)
