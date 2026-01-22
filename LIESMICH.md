@@ -17,11 +17,12 @@ Die Uhr wird zweimal am Tag mit einer RTC synchronisiert: Um 02:00 Uhr und im 03
 - [Installation](#installation)
 - [Links](#Links)
 
-Die 3 Taster haben folgende Funktion:
+Die 4 Taster haben folgende Funktion:
 
 - Taster 1 sagt die aktuelle Uhrzeit an
 - Taster 2 spielt einen der vorhandenen SCP-Fan-Gesänge
 - Taster 3 wird für den Reset der WLAN-Verbindung benötigt (5x innerhalb von 2 Sekunden drücken löscht die WLDN- und API Key Config)
+- Taster 4 wird im Programm aktuell nicht abgefragt und kann für eigene Zwecke verwendet werden
 
 ## Hardware
 * Raspberry Pi Pico, Pico " oder Pimoroni Pico Plus 2W (mit mehr RAM/Flash für längere Sounds)
@@ -33,7 +34,7 @@ Die 3 Taster haben folgende Funktion:
 * 3 Kurzhubtaster (etwa 6x6x9mm) optimalerweise mit Kappen in Vereinsfarben (schwarz, weiss, grün)
 * 4 Schrauben 2.5mm
 * 4 Abstandhalter 2.5mm, etwa 30mm lang
-* Platine (Muster siehe bei **Links**)
+* Platine (Muster siehe bei Dateien)
 * 5V Stromquelle
 * Lötkolben
 
