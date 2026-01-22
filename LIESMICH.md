@@ -13,11 +13,11 @@ Night_Mode_Hours = False
 
 Die Uhr wird zweimal am Tag mit einer RTC synchronisiert: Um 02:00 Uhr und im 03:00 (wegen Sommerzeit-Problem)...
 
-- [Benötigte Hardware](#Benötigte Hardware)
+- [Benötigte Hardware](#Hardware)
 - [Installation](#installation)
-- [Links](#links)
+- [Links](#Links)
 
-## Benötigte Hardware
+## Hardware
 * Raspberry Pi Pico, Pico " oder Pimoroni Pico Plus 2W (mit mehr RAM/Flash für längere Sounds)
 * Waveshare e-paper display 3.7", 480 x 280 pixel
 * Lautsprecher 3 Watt, 8 Ohm
