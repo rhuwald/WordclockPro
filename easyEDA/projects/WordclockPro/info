@@ -1,0 +1,156 @@
+{
+  "uuid": "c419e113bc47c0b7aa9d4aef631cfc7f",
+  "path": "Offline/WordclockPro",
+  "name": "WordclockPro",
+  "content": "",
+  "created_at": "2026-01-03 20:57:14",
+  "updated_at": "2026-01-22 21:11:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2994547c25139e09b3babe6159493cb5",
+      "title": "Sheet_WordClockPro",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7809ed3ba7c24a14936ce2a66b37ccdb": 2,
+        "e8227dd34355fb317f612b5079bf676c": 4,
+        "6ed02899c2e64321b78822de93de3a3b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "button6*6*8.5",
+          4,
+          "KEY-TH_4P-L6.0-W6.0-P4.50",
+          "BUTTON_1,BUTTON_2,BUTTON_3,BUTTON_5",
+          {
+            "Manufacturer Part": "button6*6*8.5",
+            "Manufacturer": "ReliaPro",
+            "Supplier": "LCSC",
+            "Supplier Part": "C59980"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x8",
+          2,
+          "HDR-F-2.54_1X8",
+          "MAX_98357A,PICO-EPAPER-3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225505"
+          }
+        ],
+        [
+          "Raspberry Pi Pico",
+          1,
+          "COMM-TH_COLOREASYPICO2-RP2350",
+          "U1",
+          {
+            "Manufacturer Part": "ColorEasyPico2-RP2350",
+            "Manufacturer": "立创开发板",
+            "Supplier": "LCSC",
+            "Supplier Part": "C42924268"
+          }
+        ]
+      ],
+      "updateTime": 1769112408,
+      "createTime": 1767470234,
+      "histories": [],
+      "created_at": "2026-01-03 20:57:14",
+      "updated_at": "2026-01-22 21:06:48"
+    },
+    {
+      "uuid": "191fe040de21bd34b44eb371211c101d",
+      "puuid": "c419e113bc47c0b7aa9d4aef631cfc7f",
+      "title": "PCB_WordclockPro",
+      "filename": "PCB_WordclockPro.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9096c4e6bc254754b0b895e85df2faca": 4,
+        "76a028e0363649388f2a2e340a157455": 2,
+        "6c0221ff9ba64b11848e8aa6c3828ef5": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "button6*6*8.5",
+          4,
+          "KEY-TH_4P-L6.0-W6.0-P4.50",
+          "BUTTON_5,BUTTON_1,BUTTON_2,BUTTON_3",
+          {
+            "Manufacturer Part": "button6*6*8.5",
+            "Manufacturer": "ReliaPro",
+            "Supplier": "LCSC",
+            "Supplier Part": "C59980"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x8",
+          1,
+          "HDR-F-2.54_1X8",
+          "PICO-EPAPER-3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225505"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x8",
+          1,
+          "HDR-F-2.54_1X8",
+          "MAX_98357A",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225505"
+          }
+        ],
+        [
+          "Raspberry Pi Pico",
+          1,
+          "COMM-TH_COLOREASYPICO2-RP2350",
+          "U1",
+          {
+            "Manufacturer Part": "ColorEasyPico2-RP2350",
+            "Manufacturer": "立创开发板",
+            "Supplier": "LCSC",
+            "Supplier Part": "C42924268"
+          }
+        ]
+      ],
+      "updateTime": 1769112342,
+      "createTime": 1769112342,
+      "histories": [],
+      "created_at": "2026-01-22 21:05:42",
+      "updated_at": "2026-01-22 21:05:42"
+    }
+  ],
+  "sort": [],
+  "title": "WordclockPro",
+  "foldername": "WordclockPro",
+  "schfilename": "WordclockPro.json",
+  "schfilemtime": 1769112669498
+}
