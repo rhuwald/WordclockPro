@@ -1,6 +1,6 @@
 # Wordclock Pro
 
-Wordclock auf Basis eines  Raspberry Pi Pico mit Waveshare e-paper 3.7" Display und MAX 98357A Mono Verstärker. Die Workclock zeigt minütlich die aktuelle Zeit in deutscher Sprache auf dem 3.7" e-paper display an. Z.B. "ES IST FÜNF MINUTEN NACH VIER".
+Wordclock auf Basis eines  Raspberry Pi Pico mit Waveshare e-paper 3.7" Display und MAX 98357A Mono Verstärker. Die Workclock zeigt minütlich die aktuelle Zeit in deutscher Sprache auf dem 3.7" e-paper display an. Z.B. "ES IST GENAU FÜNF MINUTEN NACH ACHT".
 
 <div><img src="pictures/IMG_8315.JPEG" width="30%" align="left" alt="Screenshot 1">
 <img src="pictures/IMG_8316.JPEG" width="30%" align="left" alt="Screenshot 2">
