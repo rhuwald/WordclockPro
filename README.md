@@ -2,6 +2,9 @@
 
 Wordclock based on a Raspberry Pi Pico with a Waveshare 3.7" e-paper display and a MAX 98357A mono amplifier. The Wordclock displays the current time in German every minute on the 3.7" e-paper display. For example, "ES IST FÜNF MINUTEN NACH VIER".
 
+<div><img src="pictures/IMG_8315.JPEG" width="30%" align="left" alt="Screenshot 1">
+<img src="pictures/IMG_8316.JPEG" width="30%" align="left" alt="Screenshot 2">
+<img src="pictures/IMG_8311.JPEG" width="30%" alt="Screenshot 3"></div>
 
 There is a light and dark mode that can be set in the wordclock.py code:
 
