@@ -2,6 +2,10 @@
 
 Wordclock auf Basis eines  Raspberry Pi Pico mit Waveshare e-paper 3.7" Display und MAX 98357A Mono Verstärker. Die Workclock zeigt minütlich die aktuelle Zeit in deutscher Sprache auf dem 3.7" e-paper display an. Z.B. "ES IST FÜNF MINUTEN NACH VIER".
 
+<div><img src="pictures/IMG_8315.JPEG" width="30%" align="left" alt="Screenshot 1">
+<img src="pictures/IMG_8316.JPEG" width="30%" align="left" alt="Screenshot 2">
+<img src="pictures/IMG_8311.JPEG" width="30%" alt="Screenshot 3"></div>
+
 Es gibt einen Hell- und Dunkel-Modus, der im Code von wordclock.py festgelegt werden kann:
 
 ```python
