@@ -1,6 +1,6 @@
 # Wordclock Pro
 
-Wordclock based on a Raspberry Pi Pico with a Waveshare 3.7" e-paper display and a MAX 98357A mono amplifier. The Wordclock displays the current time in German every minute on the 3.7" e-paper display. For example, "ES IST FÜNF MINUTEN NACH VIER".
+Wordclock based on a Raspberry Pi Pico with a Waveshare 3.7" e-paper display and a MAX 98357A mono amplifier. The Wordclock displays the current time in German every minute on the 3.7" e-paper display. For example, "ES IST GENAU FÜNF MINUTEN NACH ACHT".
 
 <div><img src="pictures/IMG_8315.JPEG" width="30%" align="left" alt="Screenshot 1">
 <img src="pictures/IMG_8316.JPEG" width="30%" align="left" alt="Screenshot 2">
